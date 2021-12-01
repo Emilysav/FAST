@@ -1,9 +1,12 @@
 import React from "react";
+import Profilepage from "../Components/Profile/profilepage";
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 function Profile() {
     return(
         <div className='Profile'>
-            Your profile here
+            <Profilepage/>
         </div>
     )
 }

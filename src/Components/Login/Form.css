@@ -1,8 +1,16 @@
-.formContent {
-    font-family: 'Times New Roman', Times, serif;
-    color: #57595D;
-    text-align: center;
-    margin: 20px;
-    background-color: black;
+.form-box {
+    margin-left: 250px;
+    margin-right: 250px;
 }
-
+.form-box1 {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.form-box2 {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.form-box3 {
+    margin-left: 250px;
+    margin-right: 250px;
+}

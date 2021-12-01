@@ -7,13 +7,15 @@ import Connect from '../Pages/Connect'
 import Challanges from '../Pages/Challanges'
 import Home from '../Pages/Home'
 import Signup from '../Pages/Signup'
+import Login from '../Pages/login'
+import Profile from '../Pages/Profile'
 
 //<img className="photo" src={FASTLOGO}></img>
 function  navbar() {
     return (
         <Router>
             <div className="Navbar">
-                <Navbar bg="dark" variant="dark" expand="lg">
+                <Navbar bg="dark" variant="dark" expand="sm">
                     <Navbar.Brand margin-left="20px">
                         FAST
                     </Navbar.Brand>
@@ -24,6 +26,7 @@ function  navbar() {
                         <Nav.Link as={Link} to="/Challanges">Challanges</Nav.Link>
                         <Nav.Link as={Link} to="/About">About</Nav.Link>
                         <Nav.Link as={Link} to="/Signup">Signup</Nav.Link>
+                        <Nav.Link as={Link} to="/Login">Login</Nav.Link>
                     </Nav>
 
                 </Navbar>
@@ -35,6 +38,8 @@ function  navbar() {
                 <Route exact path="/Challanges"> <Challanges/></Route>
                 <Route exact path="/About"><About/></Route>
                 <Route exact path="/Signup"><Signup/></Route>
+                <Route exact path="/Login"><Login/></Route>
+                <Route exact path="/Profile"><Profile/></Route>
             </Switch>
             </div>
         </Router>
