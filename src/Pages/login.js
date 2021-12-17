@@ -1,7 +1,7 @@
-import React, {useEffect, useSelector} from 'react'
+import React from 'react'
 import LoginForm from '../Components/Login/LoginForm'
 
-function Login(history){
+function Home(){
 
     return(
         <div >
@@ -10,4 +10,4 @@ function Login(history){
     )
 }
 
-export default Login;
+export default Home;

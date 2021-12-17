@@ -1,7 +1,5 @@
 import React from "react";
-import Profilepage from "../Components/Profile/profilepage";
-import 'bootstrap/dist/css/bootstrap.css'
-
+import Profilepage from "../Components/Profile/profilepage"
 
 function Profile() {
     return(
