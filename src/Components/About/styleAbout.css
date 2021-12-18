@@ -1,0 +1,28 @@
+.F1 {
+    background: rgb(112, 84, 177);
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  
+  header {
+    margin: 40px;
+    text-align: center;
+    color: black;
+    font-size: small;
+  }
+  
+  
+  .send{
+    color: black;
+    font-size: 10pt;
+  }
+
+  .F1{
+    color: black;
+    border: solid black 3pt;
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-style: italic;
+  }
+  

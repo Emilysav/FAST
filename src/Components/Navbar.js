@@ -7,8 +7,9 @@ import Connect from '../Pages/Connect'
 import Challanges from '../Pages/Challanges'
 import Home from '../Pages/Home'
 import Signup from '../Pages/Signup'
-import Login from '../Pages/login'
+import Login from '../Pages/Login'
 import Profile from '../Pages/Profile'
+import Submit from '../Pages/Submit'
 
 //<img className="photo" src={FASTLOGO}></img>
 function  navbar() {
@@ -40,6 +41,7 @@ function  navbar() {
                 <Route exact path="/Signup"><Signup/></Route>
                 <Route exact path="/Login"><Login/></Route>
                 <Route exact path="/Profile"><Profile/></Route>
+                <Route exact path="/Submit"><Submit/></Route>
             </Switch>
             </div>
         </Router>

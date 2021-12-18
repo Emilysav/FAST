@@ -1,3 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+   font-family: 'Oswald', 'sans-serif'; 
+}
+.formContent {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #262727;
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+    margin-left: 2%;
+    border: black solid 2px;
+    border-radius: 8px;
+}
+.test{
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.challenge{
+    text-align: center;
+    align-items: center;
+}
+.challenges{
+    border-radius: 25px;
+    text-align: center;
+    border-width: 4;
+    border-style:solid ;
+    border-color: rgb(147, 168, 147);
+    box-shadow:12px 12px 10px -5px grey ;
+    margin: auto;
+    width: 50%;
+    padding:10px;
+   margin-top: 1%;
+}
+.icon{
+   align-items: right;
+   margin-right: 10%;
+ 
+}
+.btn{
+    display: inline-block;
+    background: rgb(52, 136, 52);
+    color: #fff;
+    border:none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    box-shadow: 2px 12px 10px -5px grey;
+}
+.btn-block{
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+}
+.add-form{
+    margin-bottom: 40px;
+}
+.form-control{
+    margin: 20px 0;
+    width:50%;
+    text-align: center;
+    margin-left: 25%;
+    box-shadow: 2px 12px 10px -7px rgb(228, 219, 219);
+}
+.form-control-check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#myProgress{
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 1%;
+    width: 50%;
+    background-color: rgb(190, 178, 178);
+}
+.myBar{
+    width: 0%;
+    height: 30px;
+    background-color: rgb(57, 173, 115);
+}
+.title{
+    padding: 1%;
+    
+   
+}
+.Ffonts{
+    font-size: 40px;
+}
+
+
 .form-box {
     margin-left: 250px;
     margin-right: 250px;
